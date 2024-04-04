@@ -1,19 +1,22 @@
 name: AndroidBuild
 on:
   pull_request:
-    branches:[ master ]
+    branches: [ master ]
   push:
     branches: [ master ]
 
 jobs:
   build:
-    runs-on: windows_os
+    runs-on:  ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.2
 
       - name: Setup Java JDK
         uses: actions/setup-java@v4.2.1
+        with:
+          java-version: '17'
+          distribution: 'adopt'
 
       - name: Build`with Gradle
         uses: ./gradlew build
