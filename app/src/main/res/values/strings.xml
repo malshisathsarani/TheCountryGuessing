@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MobileCW</string>
+    <string name="title_activity_next_page">NextPage</string>
+    <string name="title_activity_button_one_screen2">ButtonOneScreen2</string>
+    <string name="title_activity_button_two_screen2">ButtonTwoScreen2</string>
+    <string name="title_activity_button_three_screen2">ButtonThreeScreen2</string>
+    <string name="title_activity_button_four_screen2">ButtonFourScreen2</string>
+    <string name="title_activity_guess_the_country">GuessTheCountryActivity</string>
+    <string name="title_activity_guess_the_hints">GuessTheHintsActivity</string>
+    <string name="title_activity_guess_the_flag">GuessTheFlagActivity</string>
+    <string name="title_activity_advance_level">AdvanceLevelActivity</string>
+    <string name="title_activity_advance2">AdvanceActivity2</string>
+</resources>
